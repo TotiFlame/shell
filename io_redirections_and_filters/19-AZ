@@ -1,2 +1,2 @@
 #!/bin/bash
-cat input | tr 'A' 'z' | tr 'c' 'e'
+tr 'A' 'z' | tr 'c' 'e'
