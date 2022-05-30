@@ -4,7 +4,7 @@
 file='/etc/passwd'
 cont=1
 
-while read line; do
-echo $line | cut -d: -f1,6
+while read -r line; do
+echo "$line" | cut -d":" -f1,6
 cont=$((cont+1))
 done < $file
