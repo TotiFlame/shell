@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#This script display "Best School 10 times and for the 9th iteration display "Hi"
+cont=1
+while [ $cont -lt 11 ]
+do
+       	echo "Best School"
+		if [ $cont = 9 ]
+		then
+			echo "Hi"		
+		fi
+	cont=$(( cont + 1 ))
+done
