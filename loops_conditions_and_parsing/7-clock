@@ -11,7 +11,7 @@ do
 
 		if [ $min -eq 0 ]
 		then
-			echo "Hour: " $cont
+			echo "Hour:" $cont
 		else
 			echo $min
 		fi
