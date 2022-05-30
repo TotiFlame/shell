@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#This script display 20 numbers, for the 4th iteration display "bad luck from China", for the 9th iteration display "bad luck from Japan" and for the 17th 
+#iteration display "bad luck from Italy"
+cont=1
+while [ $cont -lt 21 ]
+do
+	echo $cont
+	case $cont in
+		"4") echo "bad luck from China"
+		;;
+		"9") echo "bad luck from Japan"
+		;;
+		"17") echo "bad luck from Italy"
+	esac
+	cont=$(( cont + 1 ))
+done
