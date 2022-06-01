@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#stop infinit
+
+pkill -f 7-highlander
